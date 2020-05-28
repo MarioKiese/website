@@ -4,6 +4,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './Education';
 import Experience from './Experience';
 import Skill from './Skill';
+import avatar from '../photos/avatar_square.png';
 
 export default class Resume extends Component {
     render() {
@@ -13,7 +14,8 @@ export default class Resume extends Component {
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img
-                                src='https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png'
+                                //src='https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png'
+                                src={avatar}
                                 alt='avatar'
                                 style={{height: '200px'}}
                             />
@@ -21,7 +23,7 @@ export default class Resume extends Component {
                         <h2 style={{paddingTop: '2em'}}>Mario Kiese</h2>
                         <h4 style={{color: 'grey'}}>Programmer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                        <p>Highly interested in technology stuff especially everything that has to do with programming. My main interests are web development with all its beauty from HTML over React to Microservices. I am also fascinated by the big field of IoT and develop small apps connected with sensors and a web dashboard in some hobby projects. I can say that I found what I was looking for and I am absolutely passionate for it :) !</p>
+                        <p style={{textAlign: 'justify'}}>Highly interested in technology stuff especially everything that has to do with programming. My main interests are web development with all its beauty from HTML over React to Microservices. I am also fascinated by the big field of IoT and develop small apps connected with sensors and a web dashboard in some hobby projects. I can say that I found what I was looking for and I am absolutely passionate for it :) !</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
                         <h5>Address</h5>
                         <p>Billerbecker Str. 12, 48341 Altenberge</p>

@@ -115,3 +115,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7de076', end
   color: white;
   padding: 2em;
 }
+
+.resume-right-col p {
+  text-align: justify;
+}
