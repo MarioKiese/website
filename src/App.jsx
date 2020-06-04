@@ -13,17 +13,20 @@ export default class App extends Component {
           <Header
             className="header-color"
             title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/website/"
+              >
                 Mario Kiese
               </Link>
             }
             scroll
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/website/resume">Resume</Link>
+              <Link to="/website/aboutme">About Me</Link>
+              <Link to="/website/projects">Projects</Link>
+              <Link to="/website/contact">Contact</Link>
             </Navigation>
           </Header>
           <Drawer
@@ -34,10 +37,10 @@ export default class App extends Component {
             }
           >
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/website/resume">Resume</Link>
+              <Link to="/website/aboutme">About Me</Link>
+              <Link to="/website/projects">Projects</Link>
+              <Link to="/website/contact">Contact</Link>
             </Navigation>
           </Drawer>
           <Content>

@@ -33,14 +33,14 @@ export default class Resume extends Component {
               passionate for it :) !
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-            <h5>Address</h5>
-            <p>Billerbecker Str. 12, 48341 Altenberge</p>
+            {/* <h5>Address</h5>
+            <p>Billerbecker Str. 12, 48341 Altenberge</p> */}
             <h5>Phone</h5>
             <p>0170 8275297</p>
             <h5>Email</h5>
             <p>m.kiese1992@gmail.com</p>
             <h5>Web</h5>
-            <p>kiesecorp.com</p>
+            <p>mariokiese.github.io/website/</p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>

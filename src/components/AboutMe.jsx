@@ -43,7 +43,7 @@ export default class AboutMe extends Component {
             color: "white",
           }}
         >
-          Test
+          Will be filled in the next days!
         </h1>
       </div>
     );
