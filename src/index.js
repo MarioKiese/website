@@ -5,13 +5,16 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "react-mdl/extra/material.css";
 import "react-mdl/extra/material.js";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import { createBrowserHistory } from "history";
+
+const history = createBrowserHistory();
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename="/">
+    <BrowserRouter history={history}>
       <App />
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
