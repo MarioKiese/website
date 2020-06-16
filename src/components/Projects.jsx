@@ -33,16 +33,21 @@ export default class Projects extends Component {
                     "url(https://punkt.de/_Resources/Persistent/8/f/c/0/8fc0125238b099cacbed5db2fad79da413cc4654/React_Native_Logo-1140x599.png) center / cover",
                 }}
               >
-                ToDo List
+                Shopping List
               </CardTitle>
               <CardText>
-                Simple ToDo List application with authentication and Express.js
-                as backend.
+                Shopping List application build upon the MERN Stack with
+                authentication.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
+                <Button
+                  colored
+                  href="https://github.com/MarioKiese/MERN_Stack_Shopping_List"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Github
+                </Button>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
@@ -64,9 +69,44 @@ export default class Projects extends Component {
                 I created my own website with React as frontend library.
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>Live Demo</Button>
+                <Button
+                  colored
+                  href="https://github.com/MarioKiese/website"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Github
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            {/* Project 3 */}
+            <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background:
+                    "url(https://punkt.de/_Resources/Persistent/8/f/c/0/8fc0125238b099cacbed5db2fad79da413cc4654/React_Native_Logo-1140x599.png) center / cover",
+                }}
+              >
+                Website Kiese-Service
+              </CardTitle>
+              <CardText>
+                I created the website for Kiese-Service with React as frontend
+                library.
+              </CardText>
+              <CardActions border>
+                <Button
+                  colored
+                  href="http://www.kiese-service.de"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See it live
+                </Button>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
@@ -77,7 +117,7 @@ export default class Projects extends Component {
       case 1:
         return (
           <div>
-            <h1>Others</h1>
+            <h1>I'm taking my time.</h1>
           </div>
         );
       // case 2:
