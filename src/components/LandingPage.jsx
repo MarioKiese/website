@@ -44,44 +44,35 @@ export default class LandingPage extends Component {
               <h1>Fullstack Developer</h1>
               <hr />
               <p>
-                HTML/CSS | Bootstrap | JavaScript | React | React Native |
+                HTML/CSS | Material UI | JavaScript | React | React Native |
                 NodeJS | Express | MongoDB
               </p>
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
-                  href="http://google.com"
+                  href="www.linkedin.com/in/mario-kiese-8740a0b1"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="fa fa-linkedin" aria-hidden="true" />
                 </a>
 
+                {/* Xing */}
+                <a
+                  href="https://www.xing.com/profile/Mario_Kiese/cv"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fa fa-xing" aria-hidden="true" />
+                </a>
+
                 {/* Github */}
                 <a
-                  href="http://google.com"
+                  href="https://github.com/MarioKiese"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="fa fa-github" aria-hidden="true" />
-                </a>
-
-                {/* Freecodecamp */}
-                <a
-                  href="http://google.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa fa-free-code-camp" aria-hidden="true" />
-                </a>
-
-                {/* YouTube */}
-                <a
-                  href="http://google.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa fa-youtube" aria-hidden="true" />
                 </a>
               </div>
             </div>
