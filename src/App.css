@@ -22,6 +22,12 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7de076', endColorstr='#dd6a72',GradientType=1 ); /* IE6-9 */
 }
 
+@media screen and (max-width: 1024px) {
+  .mdl-layout__drawer-button {
+    color: white !important;
+  }
+}
+
 .landing-grid {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7de076+2,34ba72+29,dd6a72+66 */
   /* background: rgb(125,224,118); */ /* Old browsers */
