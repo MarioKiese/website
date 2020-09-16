@@ -50,7 +50,7 @@ export default class LandingPage extends Component {
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
-                  href="www.linkedin.com/in/mario-kiese-8740a0b1"
+                  href="https://www.linkedin.com/in/mario-kiese-8740a0b1"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
