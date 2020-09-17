@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 
+import avatar from "../photos/avatar_square.png";
+
 export default class Contact extends Component {
   render() {
     return (
@@ -8,11 +10,7 @@ export default class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Mario Kiese</h2>
-            <img
-              src="https://banner2.cleanpng.com/20180626/fhs/kisspng-avatar-user-computer-icons-software-developer-5b327cc98b5780.5684824215300354015708.jpg"
-              alt="avatar"
-              style={{ height: "250px" }}
-            />
+            <img src={avatar} alt="avatar" style={{ height: "250px" }} />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
               Programming, The real Magic!
             </p>
@@ -24,26 +22,26 @@ export default class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                    style={{
+                      fontSize: "30px",
+                    }}
                   >
-                    <i className="fa fa-phone" aria-hidden="true" />
-                    0170 8275297
+                    <div style={{ display: "flex", alignItems: "center" }}>
+                      <i className="fa fa-phone" aria-hidden="true" />
+                      <p style={{ fontSize: "0.9em", wordBreak: "break-all" }}>
+                        0170 8275297
+                      </p>
+                    </div>
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-envelope" aria-hidden="true" />
-                    m.kiese1992@gmail.com
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="fa fa-skype" aria-hidden="true" />
-                    SkypeID
+                  <ListItemContent style={{ fontSize: "30px" }}>
+                    <div style={{ display: "flex", alignItems: "center" }}>
+                      <i className="fa fa-envelope" aria-hidden="true" />
+                      <p style={{ fontSize: "0.9em", wordBreak: "break-all" }}>
+                        m.kiese1992@gmail.com
+                      </p>
+                    </div>
                   </ListItemContent>
                 </ListItem>
               </List>
