@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.f4e89fec.chunk.css",
-    "main.js": "/website/static/js/main.52f422b6.chunk.js",
-    "main.js.map": "/website/static/js/main.52f422b6.chunk.js.map",
+    "main.css": "/website/static/css/main.d90c84d8.chunk.css",
+    "main.js": "/website/static/js/main.fa24c643.chunk.js",
+    "main.js.map": "/website/static/js/main.fa24c643.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.73affe2e.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.73affe2e.js.map",
     "static/css/2.e4346227.chunk.css": "/website/static/css/2.e4346227.chunk.css",
-    "static/js/2.751bde7d.chunk.js": "/website/static/js/2.751bde7d.chunk.js",
-    "static/js/2.751bde7d.chunk.js.map": "/website/static/js/2.751bde7d.chunk.js.map",
+    "static/js/2.ff86c625.chunk.js": "/website/static/js/2.ff86c625.chunk.js",
+    "static/js/2.ff86c625.chunk.js.map": "/website/static/js/2.ff86c625.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.5f677540d3fcd3cb4602b679f8f28fd2.js": "/website/precache-manifest.5f677540d3fcd3cb4602b679f8f28fd2.js",
+    "precache-manifest.e556c1ca7dea135f80e394d4a942b68c.js": "/website/precache-manifest.e556c1ca7dea135f80e394d4a942b68c.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/website/static/css/2.e4346227.chunk.css.map",
-    "static/css/main.f4e89fec.chunk.css.map": "/website/static/css/main.f4e89fec.chunk.css.map",
-    "static/js/2.751bde7d.chunk.js.LICENSE.txt": "/website/static/js/2.751bde7d.chunk.js.LICENSE.txt",
-    "static/media/avatar_square.png": "/website/static/media/avatar_square.d34f7071.png"
+    "static/css/main.d90c84d8.chunk.css.map": "/website/static/css/main.d90c84d8.chunk.css.map",
+    "static/js/2.ff86c625.chunk.js.LICENSE.txt": "/website/static/js/2.ff86c625.chunk.js.LICENSE.txt",
+    "static/media/avatar_square.png": "/website/static/media/avatar_square.d34f7071.png",
+    "static/media/hulu_logo.jpg": "/website/static/media/hulu_logo.31643708.jpg",
+    "static/media/logo_kiese_service.png": "/website/static/media/logo_kiese_service.db37b67c.png",
+    "static/media/slack_logo.png": "/website/static/media/slack_logo.31b125bb.png",
+    "static/media/utalk_logo.png": "/website/static/media/utalk_logo.5dabf6ef.png"
   },
   "entrypoints": [
     "static/js/runtime-main.73affe2e.js",
     "static/css/2.e4346227.chunk.css",
-    "static/js/2.751bde7d.chunk.js",
-    "static/css/main.f4e89fec.chunk.css",
-    "static/js/main.52f422b6.chunk.js"
+    "static/js/2.ff86c625.chunk.js",
+    "static/css/main.d90c84d8.chunk.css",
+    "static/js/main.fa24c643.chunk.js"
   ]
 }
