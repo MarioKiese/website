@@ -117,7 +117,7 @@ export default class AboutMe extends Component {
             Master's degree in Business Informatics. And that's the point where
             I am right now. In addition to my studies, I work as a working
             student at a software company as IoT developer. And so far I'm
-            really happsy and can't wait to looking forward to the upcoming
+            really happy and can't wait to looking forward to the upcoming
             things :)!
           </p>
         </div>
