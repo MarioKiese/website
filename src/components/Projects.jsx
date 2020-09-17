@@ -12,6 +12,11 @@ import {
   CardMenu,
   IconButton,
 } from "react-mdl";
+import logo from "../photos/logo_kiese_service.png";
+import avatar from "../photos/avatar_square.png";
+import hulu from "../photos/hulu_logo.jpg";
+import slack from "../photos/slack_logo.png";
+import utalk from "../photos/utalk_logo.png";
 
 export default class Projects extends Component {
   state = {
@@ -31,9 +36,28 @@ export default class Projects extends Component {
                   height: "176px",
                   background:
                     "url(https://punkt.de/_Resources/Persistent/8/f/c/0/8fc0125238b099cacbed5db2fad79da413cc4654/React_Native_Logo-1140x599.png) center / cover",
+                  borderBottom: "1px solid gray",
                 }}
               >
-                Shopping List
+                <div
+                  style={{
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-end",
+                  }}
+                >
+                  <h4
+                    style={{
+                      backgroundColor: "black",
+                      margin: "0",
+                      borderRadius: "40px",
+                      padding: "5px",
+                    }}
+                  >
+                    Application
+                  </h4>
+                </div>
               </CardTitle>
               <CardText>
                 Shopping List application build upon the MERN Stack with
@@ -57,13 +81,34 @@ export default class Projects extends Component {
             <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
               <CardTitle
                 style={{
-                  color: "#fff",
+                  color: "white",
                   height: "176px",
-                  background:
-                    "url(https://punkt.de/_Resources/Persistent/8/f/c/0/8fc0125238b099cacbed5db2fad79da413cc4654/React_Native_Logo-1140x599.png) center / cover",
+                  background: `url(${avatar})`,
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                  borderBottom: "1px solid gray",
                 }}
               >
-                Website
+                <div
+                  style={{
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-end",
+                  }}
+                >
+                  <h4
+                    style={{
+                      backgroundColor: "black",
+                      margin: "0",
+                      borderRadius: "40px",
+                      padding: "5px",
+                    }}
+                  >
+                    Website
+                  </h4>
+                </div>
               </CardTitle>
               <CardText>
                 I created my own website with React as frontend library.
@@ -88,11 +133,32 @@ export default class Projects extends Component {
                 style={{
                   color: "#fff",
                   height: "176px",
-                  background:
-                    "url(https://punkt.de/_Resources/Persistent/8/f/c/0/8fc0125238b099cacbed5db2fad79da413cc4654/React_Native_Logo-1140x599.png) center / cover",
+                  background: `url(${logo})`,
+                  backgroundPosition: "center",
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat",
+                  borderBottom: "1px solid gray",
                 }}
               >
-                Website Kiese-Service
+                <div
+                  style={{
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-end",
+                  }}
+                >
+                  <h4
+                    style={{
+                      backgroundColor: "black",
+                      margin: "0",
+                      borderRadius: "40px",
+                      padding: "5px",
+                    }}
+                  >
+                    Website
+                  </h4>
+                </div>
               </CardTitle>
               <CardText>
                 I created the website for Kiese-Service with React as frontend
@@ -112,12 +178,165 @@ export default class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
+            {/* Project 4 */}
+            <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background: `url(${hulu})`,
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                  borderBottom: "1px solid gray",
+                }}
+              >
+                <div
+                  style={{
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-end",
+                  }}
+                >
+                  <h4
+                    style={{
+                      backgroundColor: "black",
+                      margin: "0",
+                      borderRadius: "40px",
+                      padding: "5px",
+                    }}
+                  >
+                    Clone
+                  </h4>
+                </div>
+              </CardTitle>
+              <CardText>
+                Hulu clone application with styling and some general
+                functionality of Hulu.
+              </CardText>
+              <CardActions border>
+                <Button
+                  colored
+                  href="https://hulu-clone-12256.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See it live
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            {/* Project 5 */}
+            <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background: `url(${slack})`,
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                  borderBottom: "1px solid gray",
+                }}
+              >
+                <div
+                  style={{
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-end",
+                  }}
+                >
+                  <h4
+                    style={{
+                      backgroundColor: "black",
+                      margin: "0",
+                      borderRadius: "40px",
+                      padding: "5px",
+                    }}
+                  >
+                    Clone
+                  </h4>
+                </div>
+              </CardTitle>
+              <CardText>
+                Slack clone application with styling and some general
+                functionality like posting messages and login via Google.
+              </CardText>
+              <CardActions border>
+                <Button
+                  colored
+                  href="https://slack-clone-26df0.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See it live
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
           </div>
         );
       case 1:
         return (
-          <div>
-            <h1>I'm taking my time.</h1>
+          <div className="projects-grid">
+            {/* Project 1 */}
+            <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background: `url(${utalk})`,
+                  backgroundPosition: "center",
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat",
+                  borderBottom: "1px solid gray",
+                }}
+              >
+                <div
+                  style={{
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-end",
+                  }}
+                >
+                  <h4
+                    style={{
+                      backgroundColor: "black",
+                      margin: "0",
+                      borderRadius: "40px",
+                      padding: "5px",
+                    }}
+                  >
+                    Mobile App
+                  </h4>
+                </div>
+              </CardTitle>
+              <CardText>
+                Mobile app created with Ionic, LitElement and Capacitor to cover
+                the whole interview process from noting questions in categories
+                over taking the interview and do some postprocessing.
+              </CardText>
+              <CardActions border>
+                <Button
+                  colored
+                  // href="https://slack-clone-26df0.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Soon in Play Store and App Store
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
           </div>
         );
       // case 2:
@@ -142,7 +361,7 @@ export default class Projects extends Component {
           ripple
         >
           <Tab>React</Tab>
-          <Tab>Others</Tab>
+          <Tab>Ionic</Tab>
           {/* <Tab>VueJS</Tab>
                     <Tab>MongoDB</Tab> */}
         </Tabs>
