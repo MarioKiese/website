@@ -381,7 +381,10 @@ export default class Projects extends Component {
                 Shopping List application build upon the MERN Stack with
                 authentication.
               </CardText>
-              <CardActions border>
+              <CardActions
+                style={{ display: "flex", justifyContent: "space-between" }}
+                border
+              >
                 <Button
                   colored
                   href="https://github.com/MarioKiese/MERN_Stack_Shopping_List"
@@ -390,6 +393,14 @@ export default class Projects extends Component {
                 >
                   Github
                 </Button>
+                <Button
+                  colored
+                  href="https://secure-spire-90710.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See it live
+                </Button>
               </CardActions>
               <CardMenu style={{ color: "#fff" }}>
                 <IconButton name="share" />
@@ -397,10 +408,6 @@ export default class Projects extends Component {
             </Card>
           </div>
         );
-      // case 2:
-      //     return(<div><h1>This is VueJS</h1></div>);
-      // case 3:
-      //     return(<div><h1>This is MongoDB</h1></div>);
       default:
         return (
           <div>
