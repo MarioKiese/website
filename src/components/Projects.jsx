@@ -33,55 +33,6 @@ export default class Projects extends Component {
             <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
               <CardTitle
                 style={{
-                  color: "#fff",
-                  height: "176px",
-                  background:
-                    "url(https://punkt.de/_Resources/Persistent/8/f/c/0/8fc0125238b099cacbed5db2fad79da413cc4654/React_Native_Logo-1140x599.png) center / cover",
-                  borderBottom: "1px solid gray",
-                }}
-              >
-                <div
-                  style={{
-                    height: "100%",
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "flex-end",
-                  }}
-                >
-                  <h4
-                    style={{
-                      backgroundColor: "black",
-                      margin: "0",
-                      borderRadius: "40px",
-                      padding: "5px",
-                    }}
-                  >
-                    Application
-                  </h4>
-                </div>
-              </CardTitle>
-              <CardText>
-                Shopping List application build upon the MERN Stack with
-                authentication.
-              </CardText>
-              <CardActions border>
-                <Button
-                  colored
-                  href="https://github.com/MarioKiese/MERN_Stack_Shopping_List"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Github
-                </Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
-            {/* Project 2 */}
-            <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
-              <CardTitle
-                style={{
                   color: "white",
                   height: "176px",
                   background: `url(${avatar})`,
@@ -128,7 +79,7 @@ export default class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-            {/* Project 3 */}
+            {/* Project 2 */}
             <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
               <CardTitle
                 style={{
@@ -179,7 +130,7 @@ export default class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-            {/* Project 4 */}
+            {/* Project 3 */}
             <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
               <CardTitle
                 style={{
@@ -230,7 +181,7 @@ export default class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-            {/* Project 5 */}
+            {/* Project 4 */}
             <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
               <CardTitle
                 style={{
@@ -281,7 +232,7 @@ export default class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
-            {/* Project 6 */}
+            {/* Project 5 */}
             <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
               <CardTitle
                 style={{
@@ -392,6 +343,60 @@ export default class Projects extends Component {
             </Card>
           </div>
         );
+      case 2:
+        return (
+          <div className="projects-grid">
+            {/* Project 1 */}
+            <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background:
+                    "url(https://punkt.de/_Resources/Persistent/8/f/c/0/8fc0125238b099cacbed5db2fad79da413cc4654/React_Native_Logo-1140x599.png) center / cover",
+                  borderBottom: "1px solid gray",
+                }}
+              >
+                <div
+                  style={{
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-end",
+                  }}
+                >
+                  <h4
+                    style={{
+                      backgroundColor: "black",
+                      margin: "0",
+                      borderRadius: "40px",
+                      padding: "5px",
+                    }}
+                  >
+                    Application
+                  </h4>
+                </div>
+              </CardTitle>
+              <CardText>
+                Shopping List application build upon the MERN Stack with
+                authentication.
+              </CardText>
+              <CardActions border>
+                <Button
+                  colored
+                  href="https://github.com/MarioKiese/MERN_Stack_Shopping_List"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Github
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+          </div>
+        );
       // case 2:
       //     return(<div><h1>This is VueJS</h1></div>);
       // case 3:
@@ -415,6 +420,7 @@ export default class Projects extends Component {
         >
           <Tab>React</Tab>
           <Tab>Ionic</Tab>
+          <Tab>MERN-Stack</Tab>
           {/* <Tab>VueJS</Tab>
                     <Tab>MongoDB</Tab> */}
         </Tabs>
