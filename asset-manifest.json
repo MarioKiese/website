@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/website/static/css/main.f39aff7f.chunk.css",
-    "main.js": "/website/static/js/main.7e987744.chunk.js",
-    "main.js.map": "/website/static/js/main.7e987744.chunk.js.map",
+    "main.js": "/website/static/js/main.636137b0.chunk.js",
+    "main.js.map": "/website/static/js/main.636137b0.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.73affe2e.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.73affe2e.js.map",
     "static/css/2.e4346227.chunk.css": "/website/static/css/2.e4346227.chunk.css",
-    "static/js/2.ff86c625.chunk.js": "/website/static/js/2.ff86c625.chunk.js",
-    "static/js/2.ff86c625.chunk.js.map": "/website/static/js/2.ff86c625.chunk.js.map",
+    "static/js/2.ec48b481.chunk.js": "/website/static/js/2.ec48b481.chunk.js",
+    "static/js/2.ec48b481.chunk.js.map": "/website/static/js/2.ec48b481.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.57273ca37448531ef1d55f694f97d300.js": "/website/precache-manifest.57273ca37448531ef1d55f694f97d300.js",
+    "precache-manifest.c3d885d08990607e1b106ff56d7e3abe.js": "/website/precache-manifest.c3d885d08990607e1b106ff56d7e3abe.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/website/static/css/2.e4346227.chunk.css.map",
     "static/css/main.f39aff7f.chunk.css.map": "/website/static/css/main.f39aff7f.chunk.css.map",
-    "static/js/2.ff86c625.chunk.js.LICENSE.txt": "/website/static/js/2.ff86c625.chunk.js.LICENSE.txt",
+    "static/js/2.ec48b481.chunk.js.LICENSE.txt": "/website/static/js/2.ec48b481.chunk.js.LICENSE.txt",
     "static/media/avatar_square.png": "/website/static/media/avatar_square.d34f7071.png",
     "static/media/hulu_logo.jpg": "/website/static/media/hulu_logo.31643708.jpg",
     "static/media/logo_kiese_service.png": "/website/static/media/logo_kiese_service.db37b67c.png",
     "static/media/slack_logo.png": "/website/static/media/slack_logo.31b125bb.png",
+    "static/media/spotify_logo.png": "/website/static/media/spotify_logo.6831e230.png",
     "static/media/utalk_logo.png": "/website/static/media/utalk_logo.5dabf6ef.png"
   },
   "entrypoints": [
     "static/js/runtime-main.73affe2e.js",
     "static/css/2.e4346227.chunk.css",
-    "static/js/2.ff86c625.chunk.js",
+    "static/js/2.ec48b481.chunk.js",
     "static/css/main.f39aff7f.chunk.css",
-    "static/js/main.7e987744.chunk.js"
+    "static/js/main.636137b0.chunk.js"
   ]
 }
