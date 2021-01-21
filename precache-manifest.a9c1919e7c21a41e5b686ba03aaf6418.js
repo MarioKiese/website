@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a06ab6f925b83e55ee8cc1548886c7b",
+    "revision": "471c88e9929aceba8f09da795d98d9bf",
     "url": "/website/index.html"
   },
   {
-    "revision": "bf5d7c20caa1a4745ee0",
+    "revision": "563dc04764289f014ed0",
     "url": "/website/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "0599f98789fa8e9d7c1b",
+    "revision": "644202f3c235df4133f8",
     "url": "/website/static/css/main.f39aff7f.chunk.css"
   },
   {
-    "revision": "bf5d7c20caa1a4745ee0",
-    "url": "/website/static/js/2.ec48b481.chunk.js"
+    "revision": "563dc04764289f014ed0",
+    "url": "/website/static/js/2.a4f9324b.chunk.js"
   },
   {
     "revision": "e078d673834ef0c088fe44bab9fcc203",
-    "url": "/website/static/js/2.ec48b481.chunk.js.LICENSE.txt"
+    "url": "/website/static/js/2.a4f9324b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0599f98789fa8e9d7c1b",
-    "url": "/website/static/js/main.32ab79b7.chunk.js"
+    "revision": "644202f3c235df4133f8",
+    "url": "/website/static/js/main.14e343d6.chunk.js"
   },
   {
     "revision": "89ed434307d91736e1ef",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "31b125bb9f9b2811a17c07a1c28d88bf",
     "url": "/website/static/media/slack_logo.31b125bb.png"
+  },
+  {
+    "revision": "e386d37b1f9d84f84d325a07e51f46ae",
+    "url": "/website/static/media/snapchat_logo.e386d37b.png"
   },
   {
     "revision": "6831e2300170030d78de4a1254eaaccf",
