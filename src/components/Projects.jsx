@@ -13,10 +13,11 @@ import {
   IconButton,
 } from "react-mdl";
 import logo from "../photos/logo_kiese_service.png";
-import avatar from "../photos/avatar_square.png";
+import avatar from "../photos/mario_kiese.jpg";
 import hulu from "../photos/hulu_logo.jpg";
 import slack from "../photos/slack_logo.png";
 import spotify from "../photos/spotify_logo.png";
+import snapchat from "../photos/snapchat_logo.png";
 import utalk from "../photos/utalk_logo.png";
 
 export default class Projects extends Component {
@@ -274,6 +275,58 @@ export default class Projects extends Component {
                 <Button
                   colored
                   href="https://spotify-clone-c2755.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See it live
+                </Button>
+              </CardActions>
+              <CardMenu style={{ color: "#fff" }}>
+                <IconButton name="share" />
+              </CardMenu>
+            </Card>
+            {/* Project 6 */}
+            <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <CardTitle
+                style={{
+                  color: "#fff",
+                  height: "176px",
+                  background: `url(${snapchat})`,
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                  borderBottom: "1px solid gray",
+                }}
+              >
+                <div
+                  style={{
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "flex-end",
+                  }}
+                >
+                  <h4
+                    style={{
+                      backgroundColor: "black",
+                      margin: "0",
+                      borderRadius: "40px",
+                      padding: "5px",
+                    }}
+                  >
+                    Clone
+                  </h4>
+                </div>
+              </CardTitle>
+              <CardText>
+                Snapchat clone application with general functionality. You can
+                take a picture and the community is able to view it once for 10
+                seconds. Also included is authentication via Google.
+              </CardText>
+              <CardActions border>
+                <Button
+                  colored
+                  href="https://snapchat-clone-52c81.web.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

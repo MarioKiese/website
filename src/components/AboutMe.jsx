@@ -52,13 +52,13 @@ export default class AboutMe extends Component {
           <p
             style={{
               fontSize: "2em",
-              textAlign: "center",
               borderBottom: "white 2px solid",
               margin: "auto",
               paddingTop: "2em",
               paddingBottom: "2em",
               width: "80%",
               color: "white",
+              lineHeight: "1.2",
             }}
           >
             Hi! My name is Mario and I like programming and technology stuff :)!
@@ -66,13 +66,13 @@ export default class AboutMe extends Component {
           <p
             style={{
               fontSize: "2em",
-              textAlign: "center",
               borderBottom: "white 2px solid",
               margin: "auto",
               paddingTop: "2em",
               paddingBottom: "2em",
               width: "80%",
               color: "white",
+              lineHeight: "1.2",
             }}
           >
             After school I started studying Business Administration in Münster,
@@ -83,13 +83,13 @@ export default class AboutMe extends Component {
           <p
             style={{
               fontSize: "2em",
-              textAlign: "center",
               borderBottom: "white 2px solid",
               margin: "auto",
               paddingTop: "2em",
               paddingBottom: "2em",
               width: "80%",
               color: "white",
+              lineHeight: "1.2",
             }}
           >
             It was fun, but in my spare time I spent lots of hours with
@@ -104,13 +104,13 @@ export default class AboutMe extends Component {
           <p
             style={{
               fontSize: "2em",
-              textAlign: "center",
               borderBottom: "white 2px solid",
               margin: "auto",
               paddingTop: "2em",
               paddingBottom: "2em",
               width: "80%",
               color: "white",
+              lineHeight: "1.2",
             }}
           >
             After 3 years in Lemgo I went back to Münster and started my

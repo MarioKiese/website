@@ -112,8 +112,6 @@
 }
 
 .contact-grid {
-  text-align: center;
-  justify-content: center;
   width: 80%;
   height: 550px;
   background: white;
@@ -121,12 +119,16 @@
   margin-bottom: 20px;
 }
 
+.contact-image {
+  text-align: center;
+}
+
 .contact-grid p {
   font-weight: bold;
 }
 
 .contact-grid hr {
-  border-top: 5px dotted black;
+  border-top: 5px solid black;
   width: 50%;
   margin: auto;
 }

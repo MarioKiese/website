@@ -6,13 +6,10 @@ import * as serviceWorker from "./serviceWorker";
 import "react-mdl/extra/material.css";
 import "react-mdl/extra/material.js";
 import { BrowserRouter } from "react-router-dom";
-// import { createBrowserHistory } from "history";
-
-// const history = createBrowserHistory();
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/website">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>,

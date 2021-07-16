@@ -4,7 +4,7 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./Education";
 import Experience from "./Experience";
 import Skill from "./Skill";
-import avatar from "../photos/avatar_square.png";
+import avatar from "../photos/mario_kiese.jpg";
 
 export default class Resume extends Component {
   render() {
@@ -12,12 +12,12 @@ export default class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-            <div style={{ textAlign: "center" }}>
+            <div>
               <img
                 //src='https://cdn0.iconfinder.com/data/icons/user-pictures/100/malecostume-512.png'
                 src={avatar}
                 alt="avatar"
-                style={{ height: "200px" }}
+                style={{ height: "300px" }}
               />
             </div>
             <h2 style={{ paddingTop: "2em" }}>Mario Kiese</h2>
@@ -40,7 +40,7 @@ export default class Resume extends Component {
             <h5>Email</h5>
             <p>m.kiese1992@gmail.com</p>
             <h5>Web</h5>
-            <p>mariokiese.github.io/website/</p>
+            <p>mariokiese.com</p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
@@ -61,7 +61,7 @@ export default class Resume extends Component {
               startYear={2019}
               endYear={2021}
               schoolName="University of Applied Sciences Münster, Business Informatics (Master of Science)"
-              schoolDescription="The OWL University of Applied Sciences and Arts is a university of applied sciences in Ostwestfalen-Lippe in Lemgo, North Rhine-Westphalia. Further campus are in Detmold and Höxter. About 6,600 students work closely with 173 professors and about 550 other staff members in research, teaching and administration."
+              schoolDescription="FH Münster, based in the Westphalian city of Münster with a second campus in Steinfurt, is a German university. It has a student enrolment of around 15,000 (as of winter semester 2018/19), making it one of the largest public universities of applied sciences in Germany. It has twelve faculties and one central scientific unit."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Experience</h2>
@@ -85,18 +85,20 @@ export default class Resume extends Component {
             />
             <Experience
               startYear={2019}
-              endYear={2020}
+              endYear={2021}
               jobName="Working Student Developer, cronos GmbH"
-              jobDescription="Web Development and IoT Applications"
+              jobDescription="Web Development and SAP Applications"
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
             <Skill skill="Javascript" progress={90} />
-            <Skill skill="React" progress={73} />
-            <Skill skill="HTML/CSS" progress={70} />
+            <Skill skill="React" progress={87} />
+            <Skill skill="Lit" progress={85} />
+            <Skill skill="HTML/CSS" progress={85} />
+            <Skill skill="Typescript" progress={75} />
             <Skill skill="C#" progress={70} />
             <Skill skill="Java" progress={60} />
-            <Skill skill="SAPUI5" progress={40} />
+            <Skill skill="SAPUI5" progress={55} />
           </Cell>
         </Grid>
       </div>

@@ -44,8 +44,9 @@ export default class LandingPage extends Component {
               <h1>Fullstack Developer</h1>
               <hr />
               <p>
-                HTML/CSS | Material UI | JavaScript | React | React Native |
-                NodeJS | Express | MongoDB
+                HTML/CSS | Material UI | JavaScript | TypeScript | Lit | Web
+                Components <br />
+                React | React Native | NodeJS | Express | MongoDB
               </p>
               <div className="social-links">
                 {/* LinkedIn */}
